@@ -17,15 +17,9 @@ int main() {
     // Solicitar las alturas de los triangulos
     cout << "Ingrese tres valores enteros positivos: ";
     cin >> h1 >> h2 >> h3;
-
-    // Imprimir los tres triangulos
-    cout << "\nTriangulo 1:\n";
+    
     imprimirTriangulo(h1);
-    
-    cout << "\nTriangulo 2:\n";
     imprimirTriangulo(h2);
-    
-    cout << "\nTriangulo 3:\n";
     imprimirTriangulo(h3);
 
     return 0;
